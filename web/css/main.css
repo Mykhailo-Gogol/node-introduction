@@ -1,0 +1,14 @@
+h3 {
+  color: lightskyblue;
+}
+
+img {
+  display: block;
+  width: 400px;
+  height: auto;
+  border: 1px solid lightskyblue;
+}
+
+.js-class {
+  margin-top: 20px;
+}
