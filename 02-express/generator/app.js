@@ -22,7 +22,11 @@ app.set("view engine", "ejs");
 //   });
 //   next();
 // });
-app.use(logger("short"));
+
+process.env.NODE_ENV === "development"
+  ? app.use(logger("dev"))
+  : app.use(logger("short"));
+
 app.use(express.json({ limit: "100000" }));
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
