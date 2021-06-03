@@ -13,16 +13,16 @@ const app = express();
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
 
-app.use((req, res, next) => {
-  const date = new Date();
-  console.table({
-    method: req.method,
-    date: date.toLocaleDateString("em-Us"),
-    time: date.toLocaleTimeString("em-Us"),
-  });
-  next();
-});
-app.use(logger("dev"));
+// app.use((req, res, next) => {
+//   const date = new Date();
+//   console.table({
+//     method: req.method,
+//     date: date.toLocaleDateString("em-Us"),
+//     time: date.toLocaleTimeString("em-Us"),
+//   });
+//   next();
+// });
+app.use(logger("short"));
 app.use(express.json({ limit: "100000" }));
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());

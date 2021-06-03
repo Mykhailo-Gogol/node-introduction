@@ -10,5 +10,15 @@
     <a href="/">Home</a>
 
     <h1>Blog</h1>
+
+    <div><%= articles.map(parseArticles)%></div>
   </body>
 </html>
+
+<% function parseArticles(article) { %>
+<div>
+  <h2><%= article.title %></h2>
+  <p><span><%= article.author %></span><span><%= article.date %></span></p>
+  <p><%= article.body %></p>
+</div>
+<% } %>

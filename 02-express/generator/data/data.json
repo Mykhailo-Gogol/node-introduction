@@ -1,0 +1,16 @@
+{
+  "articles": [
+    {
+      "title": "Title 1",
+      "author": "Author 1",
+      "date": "Date",
+      "body": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum voluptatibus distinctio quibusdam repudiandae ut tempora rem excepturi minus. Placeat doloribus quos fugit nihil totam? Modi, eius optio recusandae ipsum unde, mollitia, voluptatum incidunt laborum odio aut odit inventore quam maxime facere neque cum? Laboriosam neque illum consequatur, libero autem blanditiis."
+    },
+    {
+      "title": "Title 2",
+      "author": "Author 2",
+      "date": "Date 2",
+      "body": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum voluptatibus distinctio quibusdam repudiandae ut tempora rem excepturi minus. Placeat doloribus quos fugit nihil totam? Modi, eius optio recusandae ipsum unde, mollitia, voluptatum incidunt laborum odio aut odit inventore quam maxime facere neque cum? Laboriosam neque illum consequatur, libero autem blanditiis."
+    }
+  ]
+}
